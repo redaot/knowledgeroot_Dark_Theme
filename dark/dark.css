@@ -257,3 +257,15 @@ color: #00CBBF;
     color: #960000!important;
     font-weight:bold;
 }
+.navbar {
+        padding: .1rem 1rem;
+}
+.bg-light {
+    background-color: #212529!important;
+}
+.navbar-light .navbar-text a {
+    color: #00ff00;
+}
+.navbar-light .navbar-text {
+    color: #008299;
+}
