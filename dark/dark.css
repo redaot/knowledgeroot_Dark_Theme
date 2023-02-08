@@ -1,6 +1,7 @@
 	body {
 		margin: 0px 0px 50px 0px;
-		background-color:#f9fcfe;
+		background-color:#0e322c;
+		color: #00FF00;
 	}
 	body.print {
 		padding: 0px 20px 20px 20px;
@@ -32,9 +33,9 @@
 
 	#messagebox div.loading
 	{
-		background: url(../../../images/loading.gif) 6px 3px no-repeat;
-		background-color: #EBEBEB;
-		border: 1px solid #CCCCCC;
+		background: url(../../../images/loading.gif) 6px 6px no-repeat;
+		background-color: #000000;
+		border: 1px solid #00FF00;
 	}
 
 	#contentwarning {
@@ -53,11 +54,11 @@
 	}
 
 	td.treenavi a {
-		color: #ffffff !important;
+		color: #00FF00 !important;
 	}
 
 	div.movetitle {
-		background-color:#CFDBC7;
+		background-color:#A2BF15;
 		font-family:verdana, arial, helvetica, sans-serif;
 		font-size: 11px;
 		font-weight:bold;
@@ -103,7 +104,7 @@
 	{
 		font-weight: bold;
 		font-size: 18px;
-		color: #cc3300;
+		color: #00FF00;
 	}
 	.cleantable {
 		border: 1px solid #CCC;
@@ -114,12 +115,12 @@
 	}
 	pre
 	{
-		border: #444 1px solid;
+		border: #00FF00 1px solid;
 		padding-right: 5px;
 		padding-left: 5px;
-		color: #008000;
+		color: #00FF00;
 		font-family: 'Courier New' , Monospace;
-		background-color: #FFF;
+		background-color: #636363;
 	}
 	/* END styles for ckeditor integration */
 
@@ -137,35 +138,122 @@
 	}
 
 	/* content history styles*/
-	#patch dl { background: #7E966E; padding: 6px; margin: 0px; color: #fff; }
+	#patch dl { background: #72531C; padding: 6px; margin: 0px; color: #fff; }
 	#patch dt { float: left; width: 7em; font-weight: bold; }
 	#patch dt:after { content:':';}
 	#patch dl, #header, #footer { font-family: verdana,arial,helvetica,sans-serif; font-size: 10pt;  }
-	#patch dl a { font-weight: bold ; color:#fc3;}
+	#patch dl a { font-weight: bold ; color:#00FF00;}
 	#patch dl a:hover  { color:#ff0; }
 	#patch h3 { font-family: verdana,arial,helvetica,sans-serif; font-size: 10pt; font-weight: bold; }
 	#patch { width: 100%; }
-	#patch h4 {font-family: verdana,arial,helvetica,sans-serif;font-size:10pt;padding:8px;background:#577;color:#fff;margin:0;}
+	#patch h4 {font-family: verdana,arial,helvetica,sans-serif;font-size:10pt;padding:8px;background:#000000;color:#00FF00;margin:0;}
 	#patch pre {padding:0;line-height:1.2em;margin:0;}
 	#patch .diff {width:100%;background:#eee;padding: 0px;overflow:auto;border:none;}
 	#patch span {display:block;padding:0 10px;}
-	#patch .modfile {border:1px solid #4C7D3C;margin:10px 0;}
+	#patch .modfile {border:1px solid #00FF00;margin:10px 0;}
 	#patch ins {background:#dfd;text-decoration:none;display:block;padding:0 10px;}
 	#patch del {background:#fdd;text-decoration:none;display:block;padding:0 10px;}
-	#patch .lines, .info {color:#888;background:#fff;}
+	#patch .lines, .info {color:#00FF00;background:#000000;}
 
 	.highlightword {
-		color: #cf3020;
+		color: #00FF00;
 		font-family: verdana,arial,helvetica,sans-serif;
 		font-size: 14px;
-		border-bottom:1px dotted #cf3020;
+		border-bottom:1px dotted #00FF00;
 		font-weight: bold;
 	}
-
+	.card{
+	background-color: #000000;
+	border: #00FF00 1px solid;
+	}
 	.card-header .fa {
 		transition: .3s transform ease-in-out;
 	}
 	.card-header .collapsed .fa {
 		transform: rotate(90deg);
 	}
+	
+    A:link { color: #00FF00; }
+    A:visited { color: #00AA00; }
+    A:hover { color:#00B0A0; }
+    A:active { color:#008299; }
+    
+	
+	.breadcrumb{
+	background-color: #000000;
+	border: #00FF00 1px solid;
+	}
 
+	.navbar-dark .navbar-brand:hover {
+    color: #FF0000;
+    background-color: #000000;
+}
+.navbar-dark .navbar-brand {
+    color: #FF0000;
+    background-color: #000000;
+}
+	.btn-outline-secondary:hover {
+    color: #00FF00;
+    background-color: #000000;
+    border: #00FF00 2px solid;
+}
+
+	.btn-outline-secondary {
+    color: #000000;
+    background-color: #960000;
+    border: #00B0A0 2px solid;
+    font-weight:bold;
+}
+	.bg-dark {
+    background-color: #000000!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FF0000;
+    border-color: #00FF00;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #00FF00;
+}
+	.navbar-dark .navbar-text {
+    color: #00FF00;
+}
+.table td, .table th {
+    border-top: 1px solid #00FF00;
+    color: #00FF00;
+}
+	.form-control {
+    color: #00FF00;
+    background-color: #000000;
+    border: 2px solid #00FF00;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #00ff00;
+    background-color: #000000;
+    border-color: #ff0000 #ff0000 #ff0000;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    color: #FF0000;
+    background-color: #000000;
+    border-color: #00FF00 #00FF00 #00FF00;
+}
+.tab-content>.active {
+    color: #00FF00;
+}
+
+body {
+color: #00CBBF;
+}
+
+.fa {
+    color: #00FF00;
+}
+
+.alert-secondary {
+    color: #00FF00;
+    background-color: #006A4B;
+    border-color: #00FF00;
+}
+.text-muted {
+    color: #960000!important;
+    font-weight:bold;
+}
